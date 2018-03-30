@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Clicker</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,900|Freckle+Face" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <div id="top-view">
+    <ul id="cat-list"></ul>
+    <div id="cat">
+        <h2 id="cat-name"></h2>
+        Clicks: <div id="cat-count"></div>
+        <img id="cat-img" src="" alt="cat">
+    </div>
+    </div>
+
+    <div>
+            <div>
+                <button id="admin">Admin</button><br>
+            </div>
+            <div class="cat-admin" id="cat-admin">
+                <form  id="cat-form" class="cat-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type ="text" maxlength="100" name="name" id="name" value="">
+
+                        <label for="url">ImgURL:</label>
+                        <input type ="text" maxlength="100" name="url" id="url" value="">
+
+                        <label for="clicks">Clicks:</label>
+                        <input type ="text" maxlength="100" name="clicks" id="clicks" value="">
+                    </div>
+                </form>
+
+            <div>
+                <button type="button" id="cancel">Cancel</button><button type="button" id="save">Save</button>
+            </div>
+            </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

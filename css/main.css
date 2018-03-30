@@ -1,0 +1,93 @@
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -webkit-transition:all .5s ease-in-out;
+    margin-right: px;
+}
+
+img {
+    max-width: 100%;
+}
+
+div, span, p{
+    /*border: 1px solid red;*/
+}
+
+#cat {
+    float: ;
+    width: 100%;
+    max-width: 480px;
+    max-height: ;
+    padding-top: px;
+    position: relative;
+    text-align: left;
+}
+
+#cat-list {
+    float: right;
+    position: relative;
+    z-index: 10;
+    padding-left: 40px;
+    height: 60px;
+    text-align: right;
+}
+
+#cat-count {
+    font-weight: bold;
+    font-size: 140%;
+    text-align: left;
+}
+
+#top-view {
+    position: relative;
+    max-height: 580px;
+    align-content: center;
+    max-width: 480px;
+    width: 100%;
+}
+
+
+#cat-admin {
+    text-align: right;
+    float: ;
+    position: absolute;
+    padding: 10px;
+    width: 220px;
+    border: 2px solid #e8e8e8;
+    display: ;
+}
+
+.invisable {
+    /*display: none;*/
+}
+
+#adminBtn {
+    position: absolute;
+    width: 120px;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    list-style-type:none;
+    margin-bottom: 8px;
+    padding: 4px;
+    margin: 4px;
+    margin-top: 0;
+}
+
+button:hover{
+    list-style-type:square;
+    background-color: orange;
+}
+
+
